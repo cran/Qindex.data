@@ -19,5 +19,12 @@ Hai Hu, Yunguang Sun, Hallgeir Rui and Inna Chervoneva.
 Laboratory Investigation, 2023. \doi{10.1016/j.labinv.2023.100158}
 }
 \author{
-Tingting Zhan, Misung Yi and Inna Chervoneva
+\strong{Maintainer}: Tingting Zhan \email{tingtingzhan@gmail.com} (\href{https://orcid.org/0000-0001-9971-4844}{ORCID}) [copyright holder]
+
+Authors:
+\itemize{
+  \item Misung Yi \email{misung.yi@dankook.ac.kr} (\href{https://orcid.org/0000-0002-4007-5408}{ORCID}) [copyright holder]
+  \item Inna Chervoneva \email{Inna.Chervoneva@jefferson.edu} (\href{https://orcid.org/0000-0002-9104-4505}{ORCID}) [copyright holder]
+}
+
 }

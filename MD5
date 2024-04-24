@@ -1,8 +1,9 @@
-b1e55ee593e1cc0ff34e738589eb6ca5 *DESCRIPTION
+64af20aa477bb6efa9475a83b497987d *DESCRIPTION
 dc21c19f0d6968ee25d441b2cf46017d *NAMESPACE
 e2ca8cc72fc9509e6899036dde4b5dba *NEWS.md
-bc4c6eb482167cbcc5e9384a99c730f0 *R/0PACKAGE.R
+1fc55a40e0bc582c59f251a89bdd1bfc *R/0PACKAGE.R
+bcde8e843e7e6833f4ea12a980d203af *R/Ki67.R
 20c8d3f97d93e2e318a22508275b5a02 *build/partial.rdb
-0ac23da22dd880daf6dcdc7cf84c4388 *data/pkg_data.rda
-cd982561918aa8a305dde8159c4f93ee *man/Qindex.data-package.Rd
-bf0af9167d5c7fc14d693fa122cdd74d *man/celldata.Rd
+0ac23da22dd880daf6dcdc7cf84c4388 *data/Ki67.rda
+9ddbe9c8f999a877ac05d3c306d6012b *man/Qindex.data-package.Rd
+2e9982b7742949d64bcbd61b0935f917 *man/celldata.Rd
