@@ -24,11 +24,7 @@ Laboratory Investigation, 2023. \doi{10.1016/j.labinv.2023.100158}
 Authors:
 \itemize{
   \item Misung Yi \email{misung.yi@dankook.ac.kr} (\href{https://orcid.org/0000-0002-4007-5408}{ORCID}) [copyright holder]
-}
-
-Other contributors:
-\itemize{
-  \item Inna Chervoneva \email{Inna.Chervoneva@jefferson.edu} (\href{https://orcid.org/0000-0002-9104-4505}{ORCID}) [contributor]
+  \item Inna Chervoneva \email{Inna.Chervoneva@jefferson.edu} (\href{https://orcid.org/0000-0002-9104-4505}{ORCID}) [copyright holder]
 }
 
 }

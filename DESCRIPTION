@@ -1,8 +1,8 @@
 Package: Qindex.data
 Type: Package
 Title: Data for Package 'Qindex'
-Version: 0.1.2
-Date: 2025-01-17
+Version: 0.1.3
+Date: 2025-01-18
 Description: Example data used in package 'Qindex'.
 LazyData: true
 LazyDataCompression: xz
@@ -12,21 +12,20 @@ License: GPL-2
 Depends: R (>= 4.3),
 Language: en-US
 Authors@R: c(person(given = 'Tingting', family = 'Zhan', role =
-       c('aut', 'cre', 'cph'), email =
-       c('tingtingzhan@gmail.com'), comment = c(ORCID =
-       '0000-0001-9971-4844')), person(given = 'Misung', family
-       = 'Yi', role = c('aut', 'cph'), email =
-       'misung.yi@dankook.ac.kr', comment = c(ORCID =
-       '0000-0002-4007-5408')), person(given = 'Inna', family =
-       'Chervoneva', role = c('ctb'), email =
-       'Inna.Chervoneva@jefferson.edu', comment = c(ORCID =
-       '0000-0002-9104-4505')))
+        c('aut', 'cre', 'cph'), email = c('tingtingzhan@gmail.com'),
+        comment = c(ORCID = '0000-0001-9971-4844')), person(given =
+        'Misung', family = 'Yi', role = c('aut', 'cph'), email =
+        'misung.yi@dankook.ac.kr', comment = c(ORCID =
+        '0000-0002-4007-5408')), person(given = 'Inna', family =
+        'Chervoneva', role = c('aut', 'cph'), email =
+        'Inna.Chervoneva@jefferson.edu', comment = c(ORCID =
+        '0000-0002-9104-4505')))
 Suggests: knitr
 NeedsCompilation: no
-Packaged: 2025-01-17 16:14:42 UTC; tingtingzhan
+Packaged: 2025-01-18 14:54:17 UTC; tingtingzhan
 Author: Tingting Zhan [aut, cre, cph] (<https://orcid.org/0000-0001-9971-4844>),
   Misung Yi [aut, cph] (<https://orcid.org/0000-0002-4007-5408>),
-  Inna Chervoneva [ctb] (<https://orcid.org/0000-0002-9104-4505>)
+  Inna Chervoneva [aut, cph] (<https://orcid.org/0000-0002-9104-4505>)
 Maintainer: Tingting Zhan <tingtingzhan@gmail.com>
 Repository: CRAN
-Date/Publication: 2025-01-17 16:30:02 UTC
+Date/Publication: 2025-01-18 22:10:05 UTC

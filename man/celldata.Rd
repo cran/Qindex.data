@@ -7,23 +7,23 @@
 \title{Ki67 Data}
 \format{
 \describe{
-\item{\code{patientID}}{\link[base]{factor}, unique patient identifier}
+\item{\code{PATIENT_ID}}{\link[base]{factor}, unique patient identifier}
 \item{\code{tissueID}}{\link[base]{factor}, TMA core identifier}
-\item{\code{recurrence}}{\link[base]{integer}, recurrence indicator, 1 = Recurred, 0 = not Recurred}
-\item{\code{recfreesurv_mon}}{\link[base]{integer}, recurrence-free survival time in months}
-\item{\code{Ki67}}{\link[base]{double}, cell signal intensity of the protein immunofloerscence signal}
-\item{\code{x}}{\link[base]{numeric}, \eqn{x}-coordinate in the cell centroid in the TMA core}
-\item{\code{y}}{\link[base]{numeric}, \eqn{y}-coordinate in the cell centroid in the TMA core}
-\item{\code{age}}{\link[base]{integer}, age at diagnosis}
+\item{\code{RECURRENCE}}{\link[base]{integer}, recurrence indicator, 1 = Recurred, 0 = not Recurred}
+\item{\code{RECFREESURV_MO}}{\link[base]{integer}, recurrence-free survival time in months}
+\item{\code{Marker}}{\link[base]{double}, cell signal intensity of the protein immunofloerscence signal}
+\item{\code{inner_x}}{\link[base]{integer}, \eqn{x}-coordinate in the cell centroid in the TMA core}
+\item{\code{inner_y}}{\link[base]{integer}, \eqn{y}-coordinate in the cell centroid in the TMA core}
+\item{\code{AGE_AT_DX}}{\link[base]{integer}, age at diagnosis}
 \item{\code{Tstage}}{\link[base]{integer}, tumor stage}
-\item{\code{node}}{\link[base]{factor}, node stage}
-\item{\code{HR}}{\link[base]{logical}, hormone positive status}
-\item{\code{histology}}{\link[base]{integer}, histology grade}
-\item{\code{Her2}}{\link[base]{logical}, Her2 status}
-\item{\code{race}}{\link[base]{character}, race, White, Black, Asian, Native Hawaiian or Other Pacific Islander, American Indian or Alaska Native, Unknown}
-\item{\code{adj_chemo}}{\link[base]{logical}, whether completed adjuvant chemo treatment}
-\item{\code{adj_rad}}{\link[base]{integer}, adjuvant radiation treatment, 0 = unknown,  1 = done, 2 = NOT done}
-\item{\code{horm}}{\link[base]{integer}, hormone treatment, 0 = unknown, 1 = not indicated, 2 = done, 3 = recommended, but not done}
+\item{\code{NodeSt}}{\link[base]{integer}, node stage, -1 = unknown, 0 = Node Negative, 1 = Node Positive}
+\item{\code{HRpos}}{\link[base]{integer}, indicator of hormone positive status (ER+ or PR+), 1 = positive, 0 = negative}
+\item{\code{HistologicalGrade}}{\link[base]{integer}, histology grade}
+\item{\code{Her2_path_qIF}}{\link[base]{integer}, Her2 status, 1 = positive, 0 = negative}
+\item{\code{RACE}}{\link[base]{character}, race, White, Black, Asian, Native Hawaiian or Other Pacific Islander, American Indian or Alaska Native, Unknown}
+\item{\code{RadjCHEMO}}{\link[base]{integer}, adjuvant chemo treatment, 0 = unknown,  1 = done, 2 = NOT done}
+\item{\code{RadjRAD}}{\link[base]{integer}, adjuvant radiation treatment, 0 = unknown,  1 = done, 2 = NOT done}
+\item{\code{HORM_4cat}}{\link[base]{integer}, hormone treatment, 0 = unknown, 1 = not indicated, 2 = done, 3 = recommended, but not done}
 \item{\code{MSI}}{\link[base]{double}, mean signal intensity (mean over all cells in the TMA core)}
 }
 }
